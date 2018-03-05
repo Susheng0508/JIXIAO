@@ -1,0 +1,140 @@
+
+html,body{
+    width:100%;height:100%
+}
+.my-navbar {
+    height: 55px;
+    padding:0 0;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    background-color:#777777;
+    opacity: 0.8;
+    border: transparent;
+    margin: 0;
+}
+.my-navbar a{
+    color:#c8e5bc;
+}
+.my-navbar a:hover {
+    color:#c0a16b !important;
+    background:transparent;
+    outline:0
+}
+.my-navbar a {
+    transition: color 0.5s ease-in-out;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 60px;
+}
+.nav .dropdown:hover .dropdown-menu{
+    display: inline-block;
+    float: left;
+}
+.container{
+    height: 150px;
+}
+.info-content{
+    background-color:#fff;
+    margin: 0 0 20px 0;
+    box-shadow: 2px 2px 3px #ccc;
+    padding: 12px 20px;
+    height: 20%;
+}
+.info-content p{
+    line-height: 1.6;
+}
+.hhead .navbar-header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.hhead .navbar-header li{
+    display: inline-block;
+}
+.hhead .navbar-header a{
+    display: block;
+    width: 60px;
+    text-align: center;
+}
+.photoshow {
+    background-color: transparent;
+    width:100%;
+    position: relative;
+    margin-top: 0;
+}
+.photoshow .menu {
+    height: 80px;
+    width: 180px;
+    margin-top: 20px;
+}
+.menu{
+    margin-left:45%;
+}
+.menu li{
+    list-style: none;
+}
+.container{
+    height: 100px;
+    width: 100%;
+    margin-top: 0;
+}
+.menu .name{
+    color:#afd9ee;
+    text-decoration:none;
+    font-size: 35px;
+    font-family:STXingkai;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+}
+.menu .name:hover{
+    color:palevioletred;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+.case{
+    padding: 40px 0;
+    text-align: center;
+}
+.case .thumbnail .caption h4 a{
+    color: #0f0f0f;
+}
+.case .thumbnail .caption p a{
+    color: #9b9b9b;
+}
+.case .thumbnail .caption h4 a:hover{
+    color:pink;
+}
+.case .thumbnail .caption p a:hover{
+    color:pink;
+}
+
+.good .container .name{
+    color: #0f0f0f;
+}
+.good .container .name:hover{
+    color: palevioletred;
+}
+.takingphoto .container .title{
+    color: #0f0f0f;
+}
+.takingphoto .container .title:hover{
+    color: palevioletred;
+}
